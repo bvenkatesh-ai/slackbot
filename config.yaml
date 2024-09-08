@@ -1,0 +1,26 @@
+# config.yaml
+
+# OpenAI settings
+openai:
+  model: "gpt-4o-mini"
+  embedding_model: "text-embedding-3-small"
+  temperature: 0.2
+
+# PDF processing settings
+pdf:
+  chunk_size: 1000
+  chunk_overlap: 200
+
+# Vector store settings
+vector_store:
+  dimension: 1536  # Dimension of OpenAI embeddings
+  similarity_top_k: 4
+
+# slack account
+slack:
+  slack_channel: C07L71T1Q6A
+
+# Logging settings
+logging:
+  level: INFO
+  format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'

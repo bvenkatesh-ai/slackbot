@@ -1,0 +1,7 @@
+faiss_cpu==1.8.0.post1
+numpy==2.1.1
+openai==1.44.0
+PyPDF2==3.0.1
+python-dotenv==1.0.1
+PyYAML==6.0.2
+slack_sdk==3.32.0
