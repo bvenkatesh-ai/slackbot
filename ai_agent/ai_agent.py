@@ -16,8 +16,6 @@ class AIAgent:
 
         Args:
             pdf_path (str): Path to the PDF file to process.
-            slack_channel (str): Slack channel where messages will be posted.
-            config_path (str): Path to the YAML configuration file.
     """
     def __init__(self, pdf_path: str):
         project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
