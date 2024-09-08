@@ -18,7 +18,7 @@ vector_store:
 
 # slack account
 slack:
-  slack_channel: C07L71T1Q6A
+  slack_channel: Your_Channel_name
 
 # Logging settings
 logging:
